@@ -1,0 +1,46 @@
+*{
+    margin: 0px;
+}
+.xyz{
+    color: white;
+    background-color: black;
+    padding-bottom: 50px;
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.xyz a{
+   
+    padding-right: 30px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+.log{
+    padding-left: 40px;
+}
+.main{
+    margin-top: 30px;
+    padding-bottom: 200px;
+    margin-bottom: 200px;
+    background-image: url("https://pngtree.com/freebackground/catering-food-poster-background_1121299.html");
+}
+.location{
+    margin: 0px;
+    padding: 0px;
+}
+
+.xyz div{
+    padding-left: 20px;
+}
+footer a{
+    color: aliceblue;
+    text-decoration: none;
+}
+.white{
+    color: white;
+}
+li a{
+    text-decoration: none;
+}

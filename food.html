@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Corner</title>
+    <!-- CSS only -->
+    <link rel="stylesheet" href="food.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+<body>
+  <header class="xyz">
+    <div>
+      <a href="food.html"><b>HOME</b></a>
+    <a href="location.html"><b>ADDRESS</b></a>
+    <a href="https://www.google.com/maps/d/viewer?mid=1B1lAsUpYFg82Je7XN1_cxRPf1UU&hl=en_US&ll=22.247758093617534%2C92.01750308970196&z=20"><b>LOCATION</b></a>
+    <a href="contact.html"><b>CONTACT US</b></a>
+    </div>
+   <div>
+    <a href=""><b class="log">LOG IN</b></a>
+    <a href="login.html"><b class="log">LOG OUT</b></a>
+   </div>
+
+</header>
+    <!-- <nav class="navbar text-light navbar-light bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand">Navbar</a>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+    </nav> -->
+
+    <main class="main">
+        
+
+     <h2 class="text-center text-success">Search your favourite food </h2>
+     <div class="input-group mb-3 w-50 mx-auto">
+        <input  id="search-field" type="text" class="form-control" placeholder="Search the food you want" aria-label="Recipient's username" aria-describedby="basic-addon2">
+        
+          <button onclick="searchFood()" class="btn btn-outline-secondary" type="button" id="button-search">Search</button>
+
+      </div>
+
+      <!-- single meal details -->
+
+      <div id="meal-details" class="w-50 mx-auto">
+       
+      </div>
+
+       <!-- search result -->
+       <div id="search-result" class="row row-cols-1 row-cols-md-3 g-4">
+        
+      </div>
+
+
+
+
+    </main>
+
+   <!-- Footer -->
+<footer class="text-center text-lg-start bg-dark text-white ">
+  
+    <div>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-google"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+    <!-- Right -->
+  </section>
+  <!-- Section: Social media -->
+
+  <!-- Section: Links  -->
+  <section class="">
+    <div class="container text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <!-- Content -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            <i class="fas fa-gem me-3"></i>FOOD NETWORK
+          </h6>
+          <p>
+            Here you will find all the delicious food you like,
+            thanks for choosing us! stay connected.
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Drinks
+          </h6>
+          <p>
+            <a href="#!" class="text-reset white">Cocacola</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Sprite</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Mountain Dew</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Fanta</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Top Foods
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">Fish</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Pasta</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Rice</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">Meat</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Contact
+          </h6>
+          <p><i class="fas fa-home me-3"></i> Chittagong , Bangladesh, NY 10012</p>
+          <p>
+            <i class="fas fa-envelope me-3"></i>
+            info@example.com
+          </p>
+          <p><i class="fas fa-phone me-3"></i> +8801881335304</p>
+          <p><i class="fas fa-print me-3"></i> +8801851618347</p>
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+    </div>
+  </section>
+  <!-- Section: Links  -->
+
+  <!-- Copyright -->
+  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+    © 2022 Copyright:
+    <a class="text-reset fw-bold" href="#">Food Corner</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
+
+
+<script src="food.php">
+
+</script>
+     <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="food.js"></script>
+</body>
+</html>
